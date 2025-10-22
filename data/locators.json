@@ -1,0 +1,30 @@
+{
+    "homePage": {
+        "searchBox": "",
+        "loginButton": "",
+        "signUpLink": ""
+    },
+    "loginPage": {
+        "usernameField": "//input[@name = 'username']",
+        "passwordField": "//input[@name='password']",
+        "submitButton": "//button[@type = 'submit']",
+        "forgetpassword": "//p[normalize-space(.) = 'Forgot your password?']",
+        "websitelink": "//a[normalize-space(.)='OrangeHRM, Inc']",
+        "linkedin_icon" : "//a[contains(@href,'linkedin')]",
+        "facebook_icon" : "//a[contains(@href,'facebook')]",
+        "twitter_icon" : "//a[contains(@href,'twitter')]",
+        "youtube_icon" : "//a[contains(@href,'youtube')]"
+    },
+
+    "ResetPage":{
+        "usernameField": "//input[@name = 'username']",
+        "CancelBtn": "//button[normalize-space(.) = 'Cancel']",
+        "ResetBtn" :"//button[normalize-space(.) = 'Reset Password']",
+        "ResetTxt" :"//h6[normalize-space()= 'Reset Password link sent successfully']"
+    },
+    "dashboardPage": {
+        "Dashboard": "//h6[normalize-space(.) = 'Dashboard']",
+        "logoutButton": "",
+        "settingsLink": ""
+    }
+}
